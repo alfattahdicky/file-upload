@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(297.24deg, #E8EFFC 8.25%, #FFFFFF 91.76%);
+  font-family: 'Open Sans',sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 630px;
+  height: 700px;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #304FFE;
+  margin: 0 0 20px;
+}
+
+.container img {
+  margin: auto;
+}
+
+.container .container__upload {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 35px auto;
+  width: 480px;
+  height: 200px;
+  padding: 20px;
+  border: 2px dashed #777EFF;
+  border-radius: 5px;
+}
+
+.container .container__upload p {
+  margin: 5px 0;
+}
+
+.container .container__upload p a {
+  text-decoration: none;
+  color: #304FFE;
+}
+
+.container .btn {
+  background-color: #304FFE;
+  border: none;
+  outline: none;
+  width: 90%;
+  padding: 15px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
